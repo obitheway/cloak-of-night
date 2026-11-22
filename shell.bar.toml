@@ -1,0 +1,7 @@
+# Cloak of Night top bar: a visible void-violet band with starlight text,
+# rather than the near-black generated default. 'active' is the tint used by
+# attention-grabbing modules (recording, voice, alerts, updates).
+background       = "#180a2b"
+background-alpha = 0.94
+text             = "#efe2fa"
+active           = "#ff2e97"
