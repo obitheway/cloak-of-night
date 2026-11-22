@@ -1,0 +1,7 @@
+# Cloak of Night flyouts: quiet void cards with a single starlight edge.
+background       = "#0b0614"
+background-alpha = 1.0
+text             = "#efe2fa"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+border-width     = "2"

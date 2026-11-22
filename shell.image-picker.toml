@@ -1,0 +1,6 @@
+# Cloak of Night image picker: the chosen star burns cyan, the rest recede.
+text                    = "#efe2fa"
+selected-border         = "#1ce6e9"
+selected-border-alpha   = 1.0
+unselected-border       = "#6b5a80"
+unselected-border-alpha = 0.35

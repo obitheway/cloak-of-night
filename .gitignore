@@ -1,0 +1,8 @@
+# Generated when the GTK icon theme is installed
+icon-theme.cache
+*.cache
+
+# Editor and OS noise
+.DS_Store
+*.swp
+*.swo

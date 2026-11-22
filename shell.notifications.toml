@@ -1,0 +1,8 @@
+# Cloak of Night notifications: cyan countdown like a distant star.
+background       = "#0b0614"
+background-alpha = 1.0
+text             = "#efe2fa"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+border-width     = "2"
+countdown        = "#1ce6e9"

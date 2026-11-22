@@ -1,0 +1,12 @@
+# Cloak of Night polkit: void scrim, blood-red errors, neon-pink lock glyph.
+background       = "#0b0614"
+background-alpha = 1.0
+text             = "#efe2fa"
+text-error       = "#ff4d6a"
+border           = "hyprland.active-border"
+border-error     = "#e01b3c"
+border-alpha     = 1.0
+border-width     = "2"
+scrim            = "#04020a"
+scrim-alpha      = 0.62
+accent           = "#ff2e97"

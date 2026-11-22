@@ -1,0 +1,14 @@
+# Cloak of Night lock screen: a void card lit by starlight.
+# Cyan at rest (Midnight Eyes), neon pink while typing (Sin), blood red on failure.
+background       = "#0b0614"
+background-alpha = 0.86
+text             = "#efe2fa"
+placeholder      = "#8f7da8"
+text-error       = "#ff4d6a"
+border           = "#1ce6e9"
+border-active    = "hyprland.active-border"
+border-error     = "#e01b3c"
+border-alpha     = 1.0
+border-width     = "2"
+selection        = "#ff2e97"
+selection-alpha  = 0.4

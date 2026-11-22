@@ -1,0 +1,7 @@
+# Cloak of Night tooltips: a violet-lit scrap of the void.
+background       = "#04020a"
+background-alpha = 0.97
+text             = "#fbf5ff"
+border           = "#b26bff"
+border-alpha     = 1.0
+border-width     = "1"

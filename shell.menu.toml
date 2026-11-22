@@ -1,0 +1,15 @@
+# Cloak of Night menus: void cards, thin starlight borders, cyan selection edge.
+background                = "#0b0614"
+background-alpha          = 1.0
+text                      = "#efe2fa"
+border                    = "hyprland.active-border"
+border-alpha              = 1.0
+border-width              = "2"
+scrim                     = "#04020a"
+scrim-alpha               = 0.6
+selected-background       = "#ff2e97"
+selected-background-alpha = 0.16
+selected-text             = "#fbf5ff"
+selected-border           = "#1ce6e9"
+selected-border-alpha     = 0.9
+selected-border-width     = "2"

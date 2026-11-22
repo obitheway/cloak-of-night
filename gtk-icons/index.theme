@@ -1,0 +1,28 @@
+[Icon Theme]
+Name=Cloak of Night
+Comment=Blood-red folders to match the Cloak of Night Omarchy theme
+Inherits=Adwaita
+Example=folder
+
+Directories=scalable/places,scalable/mimetypes,scalable/status
+
+[scalable/places]
+Context=Places
+Size=128
+Type=Scalable
+MinSize=16
+MaxSize=512
+
+[scalable/mimetypes]
+Context=MimeTypes
+Size=128
+Type=Scalable
+MinSize=16
+MaxSize=512
+
+[scalable/status]
+Context=Status
+Size=128
+Type=Scalable
+MinSize=16
+MaxSize=512

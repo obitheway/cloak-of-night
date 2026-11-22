@@ -1,0 +1,14 @@
+#!/bin/bash
+# Cloak of Night: keep the blood-red GTK folders after Omarchy resets the icon
+# theme to Adwaita on every theme switch (omarchy-theme-set-gnome).
+# $1 is the theme name or slug; only touch icons when our theme is the one set.
+set -u
+
+THEME_NAME="${1:-}"
+slug=$(printf '%s' "$THEME_NAME" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+[[ $slug == "cloak-of-night" ]] || exit 0
+
+# gsettings needs a user DBus session (same guard Omarchy's own setter uses).
+[[ -n ${DBUS_SESSION_BUS_ADDRESS:-} ]] || exit 0
+
+gsettings set org.gnome.desktop.interface icon-theme "cloak-of-night"
