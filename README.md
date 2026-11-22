@@ -5,6 +5,8 @@ with Monsters* by Shirtaloon (Travis Deverell), and from Jason Asano's essences.
 
 ![Cloak of Night on an Omarchy desktop](preview.png)
 
+The focused window shows the real 45° active border — cyan → pink → blood red.
+
 Jason's Cloak of Night is "a voluminous cloak ... more like an object of living
 darkness than fabric, dotted with tiny points of light ... tiny stars in the
 night sky of the shadowy garb". His soul crest is a floating black cloak on a
