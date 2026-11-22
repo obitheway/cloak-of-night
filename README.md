@@ -198,7 +198,8 @@ Night is the active theme and does nothing for any other theme.
 ## Credits
 
 - Wallpapers 1–4: [Wallhaven](https://wallhaven.cc) photographers (IDs listed above).
-- Wallpapers 5–6: generated with Grok Imagine Image 2.0 via OpenCode Console.
+- Wallpapers 5–6: Generated with Grok Imagine Image 2.0 (xAI) via OpenCode
+  Console. You own the outputs under xAI's terms; attribution is given here.
 - Book inspiration: Shirtaloon (Travis Deverell), *He Who Fights with Monsters*.
 - Folder artwork: derived from GNOME's Adwaita icon theme.
 - Neovim palette: built on [aether.nvim](https://github.com/omacom/aether.nvim).
