@@ -3,5 +3,5 @@
 # attention-grabbing modules (recording, voice, alerts, updates).
 background       = "#2a0f45"
 background-alpha = 0.96
-text             = "#efe2fa"
+text             = "#b26bff"
 active           = "#ff2e97"
