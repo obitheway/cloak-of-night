@@ -100,21 +100,6 @@ The Vim colorscheme reads the active theme's `colors.toml` at load time, so it
 follows whichever Omarchy theme you switch to. The GTK folder hook does nothing
 for other themes, so stock folders return automatically.
 
-If you want to regenerate the two paintings, point OpenCode's image tool at the
-same model by adding this to `~/.config/opencode/opencode.json`:
-
-```jsonc
-{
-  "$schema": "https://opencode.ai/config.json",
-  "experimental": {
-    "image_generate": { "model": "opencode/grok-imagine-image-2.0" }
-  }
-}
-```
-
-This requires an [OpenCode Console](https://opencode.ai/console) API key with
-credits; it is not needed to use the theme.
-
 ## Backgrounds
 
 The first four are astrophotography from [Wallhaven](https://wallhaven.cc); 5
@@ -152,10 +137,8 @@ condition that Jason can name the subjects of the first.
   shows the violet planet ringed by dark spired sky-citadels, with blood-red
   rifts creeping across its surface.
 
-Both were generated with `opencode/grok-imagine-image-2.0` through the OpenCode
-Console xAI endpoint, rendered natively at 2K (2816x1584, `quality: medium`)
-and saved at 2560x1440 — no upscaling. They are kept dark so light UI text
-stays readable.
+Both were generated with Grok Imagine Image 2.0 (xAI) and are included here at
+2560x1440. They are kept dark so light UI text stays readable.
 
 Wallhaven IDs (backgrounds 1-4): `lq5z8p`, `yxz1kg`, `m3jme8`, `1kdgpg`.
 
