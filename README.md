@@ -52,7 +52,7 @@ theme uses the colors directly.
 ### Just the theme
 
 ```sh
-git clone https://github.com/obitheway/omarchy-cloak-of-night-theme.git \
+git clone https://github.com/obitheway/cloak-of-night.git \
   ~/.config/omarchy/themes/cloak-of-night
 omarchy theme set "Cloak of Night"
 ```
