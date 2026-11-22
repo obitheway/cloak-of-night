@@ -159,10 +159,13 @@ theme ships its own `neovim.lua` override so syntax reads as the four pillars:
 | Shade | starlight cyan | variables, parameters, properties, preproc |
 | Soul-crest sun | gold | constants |
 
-The editor background is transparent if your own
-`~/.config/nvim/plugin/after/transparency.lua` strips backgrounds from `Normal`
-and friends — on a dark desktop that means the void-purple terminal shows
-through, which suits the cloak. `neovim.lua` has the palette baked in; if you
+The editor background has no fill of its own, so it is transparent wherever
+your `~/.config/nvim/plugin/after/transparency.lua` strips backgrounds from
+`Normal` and friends. Seeing the wallpaper through it also needs a see-through
+terminal: Ghostty, for example, needs `background-opacity = 0.85` and
+`background-opacity-cells = true` (the second is required for apps like Neovim
+that repaint the background). The void-purple wallpaper then shows through the
+editor, which suits the cloak. `neovim.lua` has the palette baked in; if you
 change `colors.toml`, regenerate it.
 
 ## Folder icons (GTK)
