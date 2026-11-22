@@ -180,6 +180,43 @@ together. `omarchy-theme-set-gnome` resets the GTK icon theme to Adwaita on
 *every* theme switch, so the hook in `extras/` re-applies this one when Cloak of
 Night is the active theme and does nothing for any other theme.
 
+## Screenshots
+
+![The four pillars wallpaper on the desktop](screenshots/desktop-four-pillars.jpg)
+
+![Neovim and themed terminal programs](screenshots/desktop-programs.jpg)
+
+![Neovim with the four-pillar syntax palette](screenshots/neovim-closeup.jpg)
+
+## Omarchy site submission
+
+The screenshot for the [omarchy.org themes page](https://omarchy.org/themes) is
+`screenshots/cloak-of-night.webp` — a real 16:9 desktop session, 1200x675 and
+42KB. From a fresh capture:
+
+```sh
+magick capture.png -strip -resize '1200>' -quality 80 screenshots/cloak-of-night.webp
+```
+
+Figure block for `themes/index.html` in
+[omacom/omarchy-site](https://github.com/omacom/omarchy-site#adding-your-theme),
+placed alphabetically among the others:
+
+```html
+<figure class="themes__theme">
+  <a href="https://github.com/obitheway/cloak-of-night"
+    ><img
+      src="/assets/themes/cloak-of-night.webp"
+      alt="Cloak of Night theme"
+      loading="lazy"
+      decoding="async"
+  /></a>
+  <figcaption>
+    <a href="https://github.com/obitheway/cloak-of-night">Cloak of Night</a>
+  </figcaption>
+</figure>
+```
+
 ## Credits
 
 - Wallpapers 1–4: [Wallhaven](https://wallhaven.cc) photographers (IDs listed above).
